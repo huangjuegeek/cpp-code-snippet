@@ -5,13 +5,13 @@ using namespace std;
 // 当用户按下"Enter"键时结束输入，输出所有整数的和
 int main()
 {
-	int a, sum = 0;
-	while (cin >> a)
-	{
-		sum = sum + a;
-		if (cin.get() == '\n')
-			break;
-	}
-	cout << sum << endl;
-	return 0;
+    int a, sum = 0;
+    while (cin >> a)
+    {
+        sum = sum + a;
+        if (cin.get() == '\n')
+            break;
+    }
+    cout << sum << endl;
+    return 0;
 }
