@@ -7,4 +7,4 @@
 控制输出的有效数字位数
 
 ### Pointer/1
-void generic_swap(void *a, void *b, int size)，交换两个长度为size个字节的内存内容
+void generic_swap(void *a, void *b, int size)，交换两个长度为size个字节的内存区域的内容
